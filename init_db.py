@@ -1,6 +1,6 @@
 from rag.ragservice import RAGService
 from utils.tools import MySQLService
-import config
+from utils.config_loader import config
 import os
 
 def main():
